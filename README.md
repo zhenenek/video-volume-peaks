@@ -18,11 +18,11 @@ https://ffmpeg.org/download.html (после установки убедитес
 
 1.базовый (только поиск пиков и сохранение JSON):
 
-  ```*python audio_peaks.py hard_09.mp4*```
+  ```python audio_peaks.py hard_09.mp4```
 
 2. с построением графика:
 
-  ```*python audio_peaks.py hard_09.mp4 --plot myplot.png*```
+  ```python audio_peaks.py hard_09.mp4 --plot myplot.png```
 
 
 hard_09.mp4 — путь к видеофайлу
