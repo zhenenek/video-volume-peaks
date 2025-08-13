@@ -4,21 +4,29 @@
 **требования**
 
 Python 3.8+
+
 установленные библиотеки:
+
 pip install numpy librosa matplotlib
+
 установленный FFmpeg
+
 https://ffmpeg.org/download.html (после установки убедитесь, что FFmpeg добавлен в переменную окружения PATH)
 
 
 запуск:
 1.базовый (только поиск пиков и сохранение JSON):
+
   *python audio_peaks.py hard_09.mp4*
 2. с построением графика:
+
   *python audio_peaks.py hard_09.mp4 --plot myplot.png*
 
 
 hard_09.mp4 — путь к видеофайлу
+
 myplot.png — имя или путь для сохранения графика 
+
 оба файла должны находиться в одной папке с audio_peaks.py
 
 
