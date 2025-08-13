@@ -2,11 +2,11 @@
 при необходимости строит график RMS [dB] vs окно с отмеченными пиками и пороговой линией.
 
 **требования**
-  Python 3.8+
-  установленные библиотеки:
-    pip install numpy librosa matplotlib
-    установленный FFmpeg
-    https://ffmpeg.org/download.html (после установки убедитесь, что FFmpeg добавлен в переменную окружения PATH)
+Python 3.8+
+установленные библиотеки:
+pip install numpy librosa matplotlib
+установленный FFmpeg
+https://ffmpeg.org/download.html (после установки убедитесь, что FFmpeg добавлен в переменную окружения PATH)
 
 
 запуск:
